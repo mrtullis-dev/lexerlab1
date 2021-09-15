@@ -18,6 +18,13 @@ void Lexer::CreateAutomata() {
 
 void Lexer::Run(std::string& input) {
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
+    int lineNumber = 1;
+    int maxRead = 0;
+    std::string maxAutomaton = ""
+    while(input.size() > 0){
+        maxRead = 0;
+        maxAutomaton = automata[1];
+    }
     /*
     set lineNumber to 1
     // While there are more characters to tokenize
