@@ -10,17 +10,9 @@
 Token.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.cpp
-ColonAutomaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.h
-
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.h
 Automaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
-
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.cpp
-ColonDashAutomaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.h
 
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.h
 Automaton.h
@@ -46,23 +38,7 @@ Automaton.h
 Token.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.cpp
-Token.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
-
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 string
 -
-
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/main.cpp
-fstream
--
-sstream
--
-iostream
--
-string
--
-Lexer.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.h
 

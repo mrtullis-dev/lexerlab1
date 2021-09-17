@@ -32,7 +32,52 @@ void Lexer::Run(std::string& input) {
     while (input.size() > 0) {
         maxRead = 0;
         maxAutomaton = automata[0]; //good
+
+
+        while (isspace(input.at(0))) {
+            if (input.at(0) == '/n') {
+                lineNumber++;
+            }
+            input.erase(0, 1);
+            if (!input.size()) {
+                //newToken = new Token(TokenType::END, "", lineNumber);
+                //tokens.push_back(newToken);
+                return;
+            }
+        }
+
+        for (Automaton *automaton: automata) {
+            inputRead = automaton->Start(input);
+            if (inputRead > maxRead) {
+                maxRead = inputRead;
+                maxAutomaton = automaton;
+            }
+        }
+        if (maxRead > 0) {
+            Token *newToken = maxAutomaton->CreateToken(input, lineNumber);
+            lineNumber += maxAutomaton->NewLinesRead();
+            tokens.push_back(newToken);
+        } else {
+            maxRead = 1;
+            newToken = new Token(TokenType::UNDEFINED, "", lineNumber);
+            tokens.push_back(newToken);
+        }
+        input.erase(0, maxRead);
+        tokens.push_back(new Token(TokenType::END, "", lineNumber));
     }
+
+    //input = input.substr(maxRead, input.size()); //i dont need this?
+
+    //for (Token *token: tokens) { std::cout << tokens << std::endl; }
+    Print();
+}
+
+void Lexer::Print() {
+    for (unsigned int i = 0; i < tokens.size(); i++) {
+        std::cout << tokens.at(i)->ToString() << std::endl;
+    }
+    std::cout << std::endl << "Total tokens " << tokens.size() << std::endl;
+}
 
 //    set lineNumber to 1
 //    // While there are more characters to tokenize
@@ -41,17 +86,6 @@ void Lexer::Run(std::string& input) {
 //        set maxAutomaton to the first automaton in automata
 
     // TODO: you need to handle whitespace inbetween tokens
-    while (isspace(input.at(0))) {
-        if (input.at(0) == '/n') {}
-        else {
-            lineNumber++;
-        }
-        input.erase(0, 1);
-        if (!input.size()) {
-            newToken = new Token(TokenType::END, "", lineNumber);
-            tokens.push_back(newToken);
-            return;
-        }
 
 
 
@@ -65,39 +99,14 @@ void Lexer::Run(std::string& input) {
 //            }
 //        }
 
-        for (Automaton *automaton: automata) {
-            inputRead = automaton->Start(input);
-            if (inputRead > maxRead) {
-                maxRead = inputRead;
-                maxAutomaton = automaton;
-            }
-        }
+
 //        // Here is the "Max" part of the algorithm
 //        if maxRead > 0 {
 //            set newToken to maxAutomaton.CreateToken(...)
 //
 //                add newToken to collection of all tokens
 //        }
-        if (maxRead > 0) {
-            Token *newToken = maxAutomaton->CreateToken(input, lineNumber);
-            lineNumber += maxAutomaton->NewLinesRead();
-            tokens.push_back(newToken);
-        } else {
-            maxRead = 1;
-            newToken = new Token(TokenType::UNDEFINED, "", lineNumber);
-            tokens.push_back(newToken);
-        }
-        input.erase(0, maxRead);
-        tokens.push_back(new Token(TokenType::END, "", lineNumber));
-    }
-}
 
-        void Lexer::Print() {
-            for (unsigned int i = 0; i < tokens.size(); i++) {
-                std::cout << tokens.at(i)->ToString() << std::endl;
-            }
-            std::cout << std::endl << "Total tokens " << tokens.size() << std::endl;
-        }
 //        // No automaton accepted input
 //        // Create single character undefined token
 //        else {
