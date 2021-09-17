@@ -2,7 +2,7 @@
 #define TOKEN_H
 #include <string>
 
-enum class TokenType {
+enum TokenType {
     COLON,
     COLON_DASH,
     COMMA,
@@ -27,12 +27,18 @@ class Token
 {
 private:
     // TODO: add member variables for information needed by Token
+    TokenType type;
+    std::string description;
+    int line;
+
 
 public:
     Token(TokenType type, std::string description, int line);
     // need to implement ToString();
 
     // TODO: add other needed methods
+    std::string TokenToString(TokenType type);
+    std::string ToString();
 };
 
 

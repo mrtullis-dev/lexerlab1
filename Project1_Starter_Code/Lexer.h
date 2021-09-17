@@ -19,6 +19,7 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
+    void Print();
     
     // TODO: add other public methods here
 
