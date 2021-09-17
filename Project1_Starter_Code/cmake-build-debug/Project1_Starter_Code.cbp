@@ -95,10 +95,22 @@
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/PeriodAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/PeriodAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.cpp">

@@ -10,33 +10,13 @@
 Token.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.h
-Automaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/PeriodAutomaton.cpp
+PeriodAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/PeriodAutomaton.h
 
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/PeriodAutomaton.h
 Automaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
-
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.cpp
-Lexer.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.h
-Automaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
-ColonAutomaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.h
-ColonDashAutomaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.h
-iostream
--
-
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.h
-vector
--
-Automaton.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
-Token.h
-/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 string

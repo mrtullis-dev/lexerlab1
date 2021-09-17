@@ -2,6 +2,8 @@
 #include "Automaton.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
+#include "CommaAutomaton.h"
+#include "PeriodAutomaton.h"
 #include <iostream>
 
 using namespace std;
@@ -17,6 +19,8 @@ Lexer::~Lexer() {
 void Lexer::CreateAutomata() {
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new CommaAutomaton());
+    automata.push_back(new PeriodAutomaton());
     // TODO: Add the other needed automata here
 }
 
@@ -24,27 +28,30 @@ void Lexer::Run(std::string& input) {
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
     int lineNumber = 1;
     int maxRead = 0;
-    int inputRead;
+    int inputRead = 0;
     Automaton *maxAutomaton = nullptr;
     Token *newToken = nullptr;
 
 
     while (input.size() > 0) {
         maxRead = 0;
-        maxAutomaton = automata[0]; //good
+        maxAutomaton = automata.front(); //good
 
 
         while (isspace(input.at(0))) {
-            if (input.at(0) == '/n') {
+            if (input.at(0) == '\n') {
                 lineNumber++;
+                //input.erase(0,1);
             }
             input.erase(0, 1);
-            if (!input.size()) {
-                //newToken = new Token(TokenType::END, "", lineNumber);
-                //tokens.push_back(newToken);
-                return;
-            }
         }
+
+            if (input.size() == 0) {
+//                newToken = new Token(TokenType::END, "", lineNumber);
+//                tokens.push_back(newToken);
+//                return;
+                    break;
+            }
 
         for (Automaton *automaton: automata) {
             inputRead = automaton->Start(input);
@@ -54,17 +61,20 @@ void Lexer::Run(std::string& input) {
             }
         }
         if (maxRead > 0) {
-            Token *newToken = maxAutomaton->CreateToken(input, lineNumber);
+            string thisInput = input.substr(0,maxRead);
+            Token *newToken = maxAutomaton->CreateToken(thisInput, lineNumber);
             lineNumber += maxAutomaton->NewLinesRead();
             tokens.push_back(newToken);
         } else {
             maxRead = 1;
-            newToken = new Token(TokenType::UNDEFINED, "", lineNumber);
+            newToken = new Token(TokenType::UNDEFINED, input.substr(0,maxRead), lineNumber);
             tokens.push_back(newToken);
         }
         input.erase(0, maxRead);
-        tokens.push_back(new Token(TokenType::END, "", lineNumber));
+        //tokens.push_back(new Token(TokenType::END, "", lineNumber));
     }
+    tokens.push_back(new Token(TokenType::END, "", lineNumber));
+
 
     //input = input.substr(maxRead, input.size()); //i dont need this?
 

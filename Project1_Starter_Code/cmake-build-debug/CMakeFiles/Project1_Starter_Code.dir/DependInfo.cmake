@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o"
+  "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o"
+  "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/PeriodAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/main.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/main.cpp.o"
   )

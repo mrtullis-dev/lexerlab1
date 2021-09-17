@@ -15,4 +15,4 @@ add_executable(Project1_Starter_Code
         Lexer.h
         main.cpp
         Token.cpp
-        Token.h)
+        Token.h CommaAutomaton.cpp CommaAutomaton.h PeriodAutomaton.cpp PeriodAutomaton.h)
