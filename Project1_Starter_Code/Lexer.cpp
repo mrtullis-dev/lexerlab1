@@ -4,6 +4,11 @@
 #include "ColonDashAutomaton.h"
 #include "CommaAutomaton.h"
 #include "PeriodAutomaton.h"
+#include "QMarkAutomaton.h"
+#include "LeftParenAutomaton.h"
+#include "RightParenAutomaton.h"
+#include "MultiplyAutomaton.h"
+#include "AddAutomaton.h"
 #include <iostream>
 
 using namespace std;
@@ -21,6 +26,11 @@ void Lexer::CreateAutomata() {
     automata.push_back(new ColonDashAutomaton());
     automata.push_back(new CommaAutomaton());
     automata.push_back(new PeriodAutomaton());
+    automata.push_back(new QMarkAutomaton());
+    automata.push_back(new LeftParenAutomaton());
+    automata.push_back(new RightParenAutomaton());
+    automata.push_back(new MultiplyAutomaton());
+    automata.push_back(new AddAutomaton());
     // TODO: Add the other needed automata here
 }
 
