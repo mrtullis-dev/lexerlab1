@@ -19,6 +19,11 @@ CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: \
  ../CommaAutomaton.cpp \
  ../CommaAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../FactsAutomaton.cpp \
+ ../FactsAutomaton.h \
+ ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: \
  ../Automaton.h \
  ../LeftParenAutomaton.cpp \
@@ -30,13 +35,17 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: \
  ../ColonAutomaton.h \
  ../ColonDashAutomaton.h \
  ../CommaAutomaton.h \
+ ../FactsAutomaton.h \
  ../LeftParenAutomaton.h \
  ../Lexer.cpp \
  ../Lexer.h \
  ../MultiplyAutomaton.h \
  ../PeriodAutomaton.h \
  ../QMarkAutomaton.h \
+ ../QueriesAutomaton.h \
  ../RightParenAutomaton.h \
+ ../RulesAutomaton.h \
+ ../SchemesAutomaton.h \
  ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o: \
  ../Automaton.h \
@@ -53,10 +62,25 @@ CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.o: \
  ../QMarkAutomaton.cpp \
  ../QMarkAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../QueriesAutomaton.cpp \
+ ../QueriesAutomaton.h \
+ ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o: \
  ../Automaton.h \
  ../RightParenAutomaton.cpp \
  ../RightParenAutomaton.h \
+ ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../RulesAutomaton.cpp \
+ ../RulesAutomaton.h \
+ ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../SchemesAutomaton.cpp \
+ ../SchemesAutomaton.h \
  ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: \
  ../Token.cpp \

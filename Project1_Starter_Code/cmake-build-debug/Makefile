@@ -225,6 +225,54 @@ CommaAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.s
 .PHONY : CommaAutomaton.cpp.s
 
+FactsAutomaton.o: FactsAutomaton.cpp.o
+.PHONY : FactsAutomaton.o
+
+# target to build an object file
+FactsAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o
+.PHONY : FactsAutomaton.cpp.o
+
+FactsAutomaton.i: FactsAutomaton.cpp.i
+.PHONY : FactsAutomaton.i
+
+# target to preprocess a source file
+FactsAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.i
+.PHONY : FactsAutomaton.cpp.i
+
+FactsAutomaton.s: FactsAutomaton.cpp.s
+.PHONY : FactsAutomaton.s
+
+# target to generate assembly for a file
+FactsAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.s
+.PHONY : FactsAutomaton.cpp.s
+
+IdAutomaton.o: IdAutomaton.cpp.o
+.PHONY : IdAutomaton.o
+
+# target to build an object file
+IdAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o
+.PHONY : IdAutomaton.cpp.o
+
+IdAutomaton.i: IdAutomaton.cpp.i
+.PHONY : IdAutomaton.i
+
+# target to preprocess a source file
+IdAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.i
+.PHONY : IdAutomaton.cpp.i
+
+IdAutomaton.s: IdAutomaton.cpp.s
+.PHONY : IdAutomaton.s
+
+# target to generate assembly for a file
+IdAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.s
+.PHONY : IdAutomaton.cpp.s
+
 LeftParenAutomaton.o: LeftParenAutomaton.cpp.o
 .PHONY : LeftParenAutomaton.o
 
@@ -345,6 +393,30 @@ QMarkAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/QMarkAutomaton.cpp.s
 .PHONY : QMarkAutomaton.cpp.s
 
+QueriesAutomaton.o: QueriesAutomaton.cpp.o
+.PHONY : QueriesAutomaton.o
+
+# target to build an object file
+QueriesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o
+.PHONY : QueriesAutomaton.cpp.o
+
+QueriesAutomaton.i: QueriesAutomaton.cpp.i
+.PHONY : QueriesAutomaton.i
+
+# target to preprocess a source file
+QueriesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.i
+.PHONY : QueriesAutomaton.cpp.i
+
+QueriesAutomaton.s: QueriesAutomaton.cpp.s
+.PHONY : QueriesAutomaton.s
+
+# target to generate assembly for a file
+QueriesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.s
+.PHONY : QueriesAutomaton.cpp.s
+
 RightParenAutomaton.o: RightParenAutomaton.cpp.o
 .PHONY : RightParenAutomaton.o
 
@@ -368,6 +440,54 @@ RightParenAutomaton.s: RightParenAutomaton.cpp.s
 RightParenAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.s
 .PHONY : RightParenAutomaton.cpp.s
+
+RulesAutomaton.o: RulesAutomaton.cpp.o
+.PHONY : RulesAutomaton.o
+
+# target to build an object file
+RulesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o
+.PHONY : RulesAutomaton.cpp.o
+
+RulesAutomaton.i: RulesAutomaton.cpp.i
+.PHONY : RulesAutomaton.i
+
+# target to preprocess a source file
+RulesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.i
+.PHONY : RulesAutomaton.cpp.i
+
+RulesAutomaton.s: RulesAutomaton.cpp.s
+.PHONY : RulesAutomaton.s
+
+# target to generate assembly for a file
+RulesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.s
+.PHONY : RulesAutomaton.cpp.s
+
+SchemesAutomaton.o: SchemesAutomaton.cpp.o
+.PHONY : SchemesAutomaton.o
+
+# target to build an object file
+SchemesAutomaton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o
+.PHONY : SchemesAutomaton.cpp.o
+
+SchemesAutomaton.i: SchemesAutomaton.cpp.i
+.PHONY : SchemesAutomaton.i
+
+# target to preprocess a source file
+SchemesAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.i
+.PHONY : SchemesAutomaton.cpp.i
+
+SchemesAutomaton.s: SchemesAutomaton.cpp.s
+.PHONY : SchemesAutomaton.s
+
+# target to generate assembly for a file
+SchemesAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project1_Starter_Code.dir/build.make CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.s
+.PHONY : SchemesAutomaton.cpp.s
 
 Token.o: Token.cpp.o
 .PHONY : Token.o
@@ -438,6 +558,12 @@ help:
 	@echo "... CommaAutomaton.o"
 	@echo "... CommaAutomaton.i"
 	@echo "... CommaAutomaton.s"
+	@echo "... FactsAutomaton.o"
+	@echo "... FactsAutomaton.i"
+	@echo "... FactsAutomaton.s"
+	@echo "... IdAutomaton.o"
+	@echo "... IdAutomaton.i"
+	@echo "... IdAutomaton.s"
 	@echo "... LeftParenAutomaton.o"
 	@echo "... LeftParenAutomaton.i"
 	@echo "... LeftParenAutomaton.s"
@@ -453,9 +579,18 @@ help:
 	@echo "... QMarkAutomaton.o"
 	@echo "... QMarkAutomaton.i"
 	@echo "... QMarkAutomaton.s"
+	@echo "... QueriesAutomaton.o"
+	@echo "... QueriesAutomaton.i"
+	@echo "... QueriesAutomaton.s"
 	@echo "... RightParenAutomaton.o"
 	@echo "... RightParenAutomaton.i"
 	@echo "... RightParenAutomaton.s"
+	@echo "... RulesAutomaton.o"
+	@echo "... RulesAutomaton.i"
+	@echo "... RulesAutomaton.s"
+	@echo "... SchemesAutomaton.o"
+	@echo "... SchemesAutomaton.i"
+	@echo "... SchemesAutomaton.s"
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"

@@ -107,6 +107,18 @@
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/LeftParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -137,10 +149,28 @@
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QMarkAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QueriesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QueriesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RightParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RightParenAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RulesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RulesAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.cpp">

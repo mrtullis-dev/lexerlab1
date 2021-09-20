@@ -26,6 +26,10 @@ Automaton.h
 Automaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
 
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.h
+Automaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/LeftParenAutomaton.h
 Automaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
@@ -53,6 +57,14 @@ MultiplyAutomaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/MultiplyAutomaton.h
 AddAutomaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/AddAutomaton.h
+SchemesAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.h
+FactsAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.h
+RulesAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RulesAutomaton.h
+QueriesAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QueriesAutomaton.h
 iostream
 -
 
@@ -76,7 +88,23 @@ Automaton.h
 Automaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
 
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QueriesAutomaton.cpp
+QueriesAutomaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QueriesAutomaton.h
+
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/QueriesAutomaton.h
+Automaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RightParenAutomaton.h
+Automaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RulesAutomaton.h
+Automaton.h
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+
+/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.h
 Automaton.h
 /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
 
