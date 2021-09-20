@@ -60,23 +60,19 @@ void Lexer::Run(std::string& input) {
 
     while (input.size() > 0) {
         maxRead = 0;
-        maxAutomaton = automata.front(); //good
+        maxAutomaton = automata.at(0); //good
 
 
-        while (isspace(input.at(0))) {
+        if(isspace(input.at(0))) {
             if (input.at(0) == '\n') {
                 lineNumber++;
                 //input.erase(0,1);
             }
             input.erase(0, 1);
+            continue;
         }
 
-            if (input.size() == 0) {
-//                newToken = new Token(TokenType::END, "", lineNumber);
-//                tokens.push_back(newToken);
-//                return;
-                    break;
-            }
+
 
         for (Automaton *automaton: automata) {
             inputRead = automaton->Start(input);
@@ -95,7 +91,7 @@ void Lexer::Run(std::string& input) {
             newToken = new Token(TokenType::UNDEFINED, input.substr(0,maxRead), lineNumber);
             tokens.push_back(newToken);
         }
-        input.erase(0, maxRead);
+        input.erase(input.begin(), input.begin()+maxRead);
         //tokens.push_back(new Token(TokenType::END, "", lineNumber));
     }
     tokens.push_back(new Token(TokenType::END, "", lineNumber));

@@ -6,7 +6,7 @@
 
 void IdAutomaton::S0(const std::string& input) {
     if (isalpha(input[index])) {
-        inputRead++;
+        inputRead = 1;
         index++;
         S1(input);
     }
@@ -16,14 +16,16 @@ void IdAutomaton::S0(const std::string& input) {
 }
 
 void IdAutomaton::S1(const std::string& input) {
-    if(index == input.size()) {
-        Serr();
+    if (isspace(input[index])) {
+        return;
     }
-    else if(isspace(input[index])) {
+    if (index == input.size()) {
+        return;
     }
-    else if (isalnum(input[index])) {
-        inputRead++;
-        index++;
-        S1(input);
+    if (!isalnum(input[index])) {
+        return;
     }
+    inputRead++;
+    index++;
+    S1(input);
 }

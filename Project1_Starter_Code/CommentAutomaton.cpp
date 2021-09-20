@@ -7,9 +7,15 @@
 
 void CommentAutomaton::S0(const std::string& input) {
     if (input[index] == '#') {
-        inputRead++;
+        inputRead = 1;
         index++;
-        S1(input);
+        if (input[index] == '|') {
+            inputRead++;
+            index++;
+            S1(input);
+        } else {
+            S2(input);
+        }
     }
     else {
         Serr();
@@ -17,57 +23,38 @@ void CommentAutomaton::S0(const std::string& input) {
 }
 
 void CommentAutomaton::S1(const std::string& input) {
+    if (input[index] == '\n') {
+        newLines++;
+    }
+    if (index == input.size()) {
+        type = TokenType::UNDEFINED;
+        return;
+    }
     if (input[index] == '|') {
-        inputRead++;
+        if (input[index+1] == '#') {
+            inputRead +=2;
+            return;
+        } else {
+            inputRead++;
+            index++;
+            S1(input);
+            return;
+        }
+    } else {
         index++;
-        S2(input);
-    }
-    if (input[index] != '\n' && index != input.size()) {
         inputRead++;
-        index++;
-        S4(input);
-    }
-    else {
-        Serr();
-    }
-}
-
-void CommentAutomaton::S4(const std::string& input) {
-    if (input[index] != '\n' && index != input.size()) {
-        inputRead++;
-        index++;
-        S4(input);
-    }
-    else if (input[index] == '\n' || index == input.size()) {
-        //do nothing
+        S1(input);
+        return;
     }
 }
 
 void CommentAutomaton::S2(const std::string& input) {
-    if (input[index] != '|') {
+    if ((input[index] == '\n') || (index == input.size())) {
+        return;
+    } else {
         inputRead++;
         index++;
         S2(input);
-    }
-    else if (input[index] == '|') {
-        inputRead++;
-        index++;
-        S3(input);
-    }
-    else {
-        Serr();
-    }
-}
-
-void CommentAutomaton::S3(const std::string& input) {
-    if (input[index] != '#') {
-        inputRead++;
-        index++;
-        S2(input);
-    }
-    else if (input[index] == '#') {
-    }
-    else {
-        Serr();
+        return;
     }
 }
