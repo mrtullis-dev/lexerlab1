@@ -287,6 +287,32 @@ CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.cpp -o CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.s
 
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o -c /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.cpp > CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.cpp -o CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.s
+
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: CMakeFiles/Project1_Starter_Code.dir/flags.make
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: ../CommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o -c /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.cpp
+
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.cpp > CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.i
+
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.cpp -o CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s
+
 # Object files for target Project1_Starter_Code
 Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o" \
@@ -305,7 +331,9 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o" \
 "CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o" \
-"CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o"
+"CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o" \
+"CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o"
 
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
@@ -327,9 +355,11 @@ Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o
+Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/build.make
 Project1_Starter_Code: CMakeFiles/Project1_Starter_Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Project1_Starter_Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Project1_Starter_Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project1_Starter_Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

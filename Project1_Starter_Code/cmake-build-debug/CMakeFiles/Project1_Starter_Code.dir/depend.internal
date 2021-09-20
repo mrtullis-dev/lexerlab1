@@ -19,10 +19,20 @@ CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.cpp
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.cpp
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.cpp
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.cpp
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
@@ -35,7 +45,9 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/LeftParenAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.cpp
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Lexer.h
@@ -46,6 +58,7 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RightParenAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RulesAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
@@ -81,6 +94,11 @@ CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.cpp
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Automaton.h
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.cpp
+ /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.h
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o
  /Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.cpp

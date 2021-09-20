@@ -19,10 +19,20 @@ CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o: \
  ../CommaAutomaton.cpp \
  ../CommaAutomaton.h \
  ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../CommentAutomaton.cpp \
+ ../CommentAutomaton.h \
+ ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o: \
  ../Automaton.h \
  ../FactsAutomaton.cpp \
  ../FactsAutomaton.h \
+ ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../IdAutomaton.cpp \
+ ../IdAutomaton.h \
  ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o: \
  ../Automaton.h \
@@ -35,7 +45,9 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: \
  ../ColonAutomaton.h \
  ../ColonDashAutomaton.h \
  ../CommaAutomaton.h \
+ ../CommentAutomaton.h \
  ../FactsAutomaton.h \
+ ../IdAutomaton.h \
  ../LeftParenAutomaton.h \
  ../Lexer.cpp \
  ../Lexer.h \
@@ -46,6 +58,7 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.o: \
  ../RightParenAutomaton.h \
  ../RulesAutomaton.h \
  ../SchemesAutomaton.h \
+ ../StringAutomaton.h \
  ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.o: \
  ../Automaton.h \
@@ -81,6 +94,11 @@ CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o: \
  ../Automaton.h \
  ../SchemesAutomaton.cpp \
  ../SchemesAutomaton.h \
+ ../Token.h
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o: \
+ ../Automaton.h \
+ ../StringAutomaton.cpp \
+ ../StringAutomaton.h \
  ../Token.h
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o: \
  ../Token.cpp \

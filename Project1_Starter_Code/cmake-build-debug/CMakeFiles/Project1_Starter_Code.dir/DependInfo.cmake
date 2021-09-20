@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/ColonDashAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/ColonDashAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommaAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.o"
+  "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/CommentAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/FactsAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/IdAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/IdAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/LeftParenAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.o"
@@ -23,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RightParenAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/RulesAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/SchemesAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.o"
+  "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/StringAutomaton.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/Token.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Token.cpp.o"
   "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/main.cpp" "/Users/masontullis/Projects/cs236/lexerlab1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/main.cpp.o"
   )
