@@ -105,9 +105,9 @@ void Lexer::Run(std::string& input) {
 
 void Lexer::Print() {
     for (unsigned int i = 0; i < tokens.size(); i++) {
-        std::cout << tokens.at(i)->ToString() << std::endl;
+        std::cout << tokens.at(i)->ToString(); if(tokens.at(i) == tokens.back()) {} else{cout << std::endl;};
     }
-    std::cout << std::endl << "Total tokens " << tokens.size() << std::endl;
+    std::cout << std::endl << "Total Tokens = " << tokens.size() << std::endl;
 }
 
 //    set lineNumber to 1

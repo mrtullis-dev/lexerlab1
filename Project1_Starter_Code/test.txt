@@ -1,6 +1,9 @@
-,
-'a string'
-# a comment
-Schemes
-FactsRules
-::-
+
+
+# unterminated string
+
+'good string'
+
+'bad string
+
+
