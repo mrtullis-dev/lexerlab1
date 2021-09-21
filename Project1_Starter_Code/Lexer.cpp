@@ -29,6 +29,7 @@ Lexer::~Lexer() {
 }
 
 void Lexer::CreateAutomata() {
+    automata.push_back(new StringAutomaton());
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
     automata.push_back(new CommaAutomaton());
@@ -43,7 +44,6 @@ void Lexer::CreateAutomata() {
     automata.push_back(new RulesAutomaton());
     automata.push_back(new QueriesAutomaton());
     automata.push_back(new IdAutomaton());
-    automata.push_back(new StringAutomaton());
     automata.push_back(new CommentAutomaton());
 
     // TODO: Add the other needed automata here
@@ -81,13 +81,13 @@ void Lexer::Run(std::string& input) {
                 maxAutomaton = automaton;
             }
         }
-        if (maxRead > 0) {
+        if (maxRead > 0 && ((input.at(0) != '\'' && input.at(maxRead - 1) != '\'') || (input.at(0) == '\'' && input.at(maxRead - 1) == '\''))) {
             string thisInput = input.substr(0,maxRead);
             Token *newToken = maxAutomaton->CreateToken(thisInput, lineNumber);
             lineNumber += maxAutomaton->NewLinesRead();
             tokens.push_back(newToken);
         } else {
-            maxRead = 1;
+            if (maxRead == 0) maxRead = 1;
             newToken = new Token(TokenType::UNDEFINED, input.substr(0,maxRead), lineNumber);
             tokens.push_back(newToken);
         }

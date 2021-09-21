@@ -3,6 +3,10 @@
 //
 
 #include "StringAutomaton.h"
+#include <ostream>
+#include <iostream>
+
+using namespace std;
 
 void StringAutomaton::S0(const std::string &input) {
     if (input[index] == '\'') {
@@ -24,7 +28,8 @@ void StringAutomaton::S1(const std::string &input) {
         inputRead++;
         S2(input);
     }
-    else {
+
+    if(index < input.size()){
         index++;
         inputRead++;
         S1(input);
@@ -41,5 +46,9 @@ void StringAutomaton::S2(const std::string &input) {
         inputRead++;
         S1(input);
     }
+}
+
+void StringAutomaton::S3(const std::string &input) {
+
 }
 
