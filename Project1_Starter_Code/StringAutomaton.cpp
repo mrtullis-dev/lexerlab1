@@ -9,6 +9,7 @@
 using namespace std;
 
 void StringAutomaton::S0(const std::string &input) {
+    type = STRING;
     if (input[index] == '\'') {
         index++;
         inputRead++;
@@ -20,16 +21,22 @@ void StringAutomaton::S0(const std::string &input) {
 }
 
 void StringAutomaton::S1(const std::string &input) {
-    if (index > input.size()) {
-        Serr();
+    if (index >= input.size()) {
+        type = UNDEFINED;
     }
-    if (input[index] == '\'') {
+    else if(input[index] == '\n'){
+        newLines++;
+        index++;
+        inputRead++;
+        S1(input);
+    }
+    else if (input[index] == '\'') {
         index++;
         inputRead++;
         S2(input);
     }
 
-    if(index < input.size()){
+    else if(index < input.size()){
         index++;
         inputRead++;
         S1(input);
@@ -37,10 +44,10 @@ void StringAutomaton::S1(const std::string &input) {
 }
 
 void StringAutomaton::S2(const std::string &input) {
-    if (index > input.size()) {
-        index++;
-        inputRead++;
-    }
+//    if (index >= input.size()) {
+//        index++;
+//        inputRead++;
+//    }
     if (input[index] == '\'' && inputRead > 1) {
         index++;
         inputRead++;

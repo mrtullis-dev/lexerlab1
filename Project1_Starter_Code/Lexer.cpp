@@ -81,7 +81,7 @@ void Lexer::Run(std::string& input) {
                 maxAutomaton = automaton;
             }
         }
-        if (maxRead > 0 && ((input.at(0) != '\'' && input.at(maxRead - 1) != '\'') || (input.at(0) == '\'' && input.at(maxRead - 1) == '\''))) {
+        if (maxRead > 0) {
             string thisInput = input.substr(0,maxRead);
             Token *newToken = maxAutomaton->CreateToken(thisInput, lineNumber);
             lineNumber += maxAutomaton->NewLinesRead();
@@ -107,7 +107,7 @@ void Lexer::Print() {
     for (unsigned int i = 0; i < tokens.size(); i++) {
         std::cout << tokens.at(i)->ToString(); if(tokens.at(i) == tokens.back()) {} else{cout << std::endl;};
     }
-    std::cout << std::endl << "Total Tokens = " << tokens.size() << std::endl;
+    std::cout << std::endl << "Total Tokens = " << tokens.size();
 }
 
 //    set lineNumber to 1
