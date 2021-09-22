@@ -21,7 +21,7 @@ void StringAutomaton::S0(const std::string &input) {
 }
 
 void StringAutomaton::S1(const std::string &input) {
-    if (index >= input.size()) {
+    if (index >= (int)input.size()) {
         type = UNDEFINED;
     }
     else if(input[index] == '\n'){
@@ -36,7 +36,7 @@ void StringAutomaton::S1(const std::string &input) {
         S2(input);
     }
 
-    else if(index < input.size()){
+    else if(index < (int)input.size()){
         index++;
         inputRead++;
         S1(input);

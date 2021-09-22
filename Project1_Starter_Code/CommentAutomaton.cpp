@@ -26,7 +26,7 @@ void CommentAutomaton::S1(const std::string& input) {
     if (input[index] == '\n') {
         newLines++;
     }
-    if (index == input.size()) {
+    if (index == (int)input.size()) {
         type = TokenType::UNDEFINED;
         return;
     }
@@ -49,7 +49,7 @@ void CommentAutomaton::S1(const std::string& input) {
 }
 
 void CommentAutomaton::S2(const std::string& input) {
-    if ((input[index] == '\n') || (index == input.size())) {
+    if ((input[index] == '\n') || (index == (int)input.size())) {
         return;
     } else {
         inputRead++;

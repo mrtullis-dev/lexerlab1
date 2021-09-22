@@ -10,11 +10,9 @@ int main(int argc, char** argv) {
 
     Lexer* lexer = new Lexer();
 
-    ifstream file ("test.txt");
-    file.open("test.txt");
+    ifstream file (argv[1]);
+    file.open(argv[1]);
     if(file.is_open()){
-        string fileArgument = argv[1];
-        ifstream file(fileArgument);
         string fileContent((std::istreambuf_iterator<char>(file)),std::istreambuf_iterator<char>());
         lexer->Run(fileContent);
    } else { cout << "not open" << endl; }
